@@ -1,0 +1,556 @@
+[
+   {
+      "name":"Bulbasaur",
+      "attack":49,
+      "defense":49,
+      "evolveLevel":16,
+      "evolveTo":"2",
+      "type":"grass",
+      "moves":[
+         "tackle",
+         "vine whip"
+      ],
+      "curve":1.3,
+      "levels": [5, 10],
+      "probability": 3
+   },
+   {
+      "name":"Ivysaur",
+      "attack":62,
+      "defense":63,
+      "evolveLevel":32,
+      "evolveTo":"3",
+      "type":"grass",
+      "moves":[
+         "tackle",
+         "vine whip",
+         "razor leaf"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Venusaur",
+      "attack":82,
+      "defense":83,
+      "type":"grass",
+      "moves":[
+         "tackle",
+         "vine whip",
+         "razor leaf"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Charmander",
+      "attack":52,
+      "defense":43,
+      "evolveLevel":16,
+      "evolveTo":"5",
+      "type":"fire",
+      "moves":[
+         "scratch",
+         "ember",
+         "metal claw"
+      ],
+      "curve":1.3,
+      "levels": [5, 10],
+      "probability": 3
+   },
+   {
+      "name":"Charmeleon",
+      "attack":64,
+      "defense":58,
+      "evolveLevel":36,
+      "evolveTo":"6",
+      "type":"fire",
+      "moves":[
+         "scratch",
+         "ember",
+         "metal claw",
+         "flamethrower"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Charizard",
+      "attack":84,
+      "defense":78,
+      "type":"fire",
+      "moves":[
+         "flamethrower",
+         "wing attack",
+         "slash",
+         "metal claw"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Squirtle",
+      "attack":48,
+      "defense":65,
+      "evolveLevel":16,
+      "evolveTo":"8",
+      "type":"water",
+      "moves":[
+         "tackle",
+         "bubble",
+         "water gun"
+      ],
+      "curve":1.3,
+      "levels": [5, 10],
+      "probability": 3
+   },
+   {
+      "name":"Wartortle",
+      "attack":63,
+      "defense":80,
+      "evolveLevel":36,
+      "evolveTo":"9",
+      "type":"water",
+      "moves":[
+         "tackle",
+         "bubble",
+         "water gun",
+         "bite"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Blastoise",
+      "attack":83,
+      "defense":100,
+      "type":"water",
+      "moves":[
+         "hydro pump",
+         "bubble",
+         "water gun",
+         "bite"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Caterpie",
+      "attack":30,
+      "defense":35,
+      "evolveLevel":7,
+      "evolveTo":"11",
+      "type":"bug",
+      "moves":[
+         "tackle"
+      ],
+      "curve":1.6,
+      "levels": [2, 7],
+      "probability": 15
+   },
+   {
+      "name":"Butterfree",
+      "attack":45,
+      "defense":50,
+      "type":"bug",
+      "moves":[
+         "confusion",
+         "gust",
+         "psybeam",
+         "silver wind"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Weedle",
+      "attack":35,
+      "defense":30,
+      "evolveLevel":7,
+      "evolveTo":"14",
+      "type":"bug",
+      "moves":[
+         "poison sting"
+      ],
+      "curve":1.6,
+      "levels": [2, 7],
+      "probability": 15
+   },
+   {
+      "name":"Pidgey",
+      "attack":45,
+      "defense":40,
+      "evolveLevel":18,
+      "evolveTo":"17",
+      "type":"normal",
+      "moves":[
+         "tackle",
+         "gust"
+      ],
+      "curve":1.3,
+      "levels": [2, 10],
+      "probability": 15
+   },
+   {
+      "name":"Pidgeotto",
+      "attack":60,
+      "defense":55,
+      "evolveLevel":36,
+      "evolveTo":"18",
+      "type":"normal",
+      "moves":[
+         "tackle",
+         "gust",
+         "wing attack"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Pidgeot",
+      "attack":80,
+      "defense":75,
+      "type":"normal",
+      "moves":[
+         "tackle",
+         "gust",
+         "wing attack"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Rattata",
+      "attack":56,
+      "defense":35,
+      "evolveLevel":20,
+      "evolveTo":"20",
+      "type":"normal",
+      "moves":[
+         "tackle",
+         "hyper fang"
+      ],
+      "curve":1.6,
+      "levels": [2, 7],
+      "probability": 20
+   },
+   {
+      "name":"Raticate",
+      "attack":81,
+      "defense":60,
+      "type":"normal",
+      "moves":[
+         "tackle",
+         "hyper fang"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Spearow",
+      "attack":60,
+      "defense":30,
+      "evolveLevel":20,
+      "evolveTo":"22",
+      "type":"normal",
+      "moves":[
+         "peck"
+      ],
+      "curve":1.6,
+      "levels": [5, 15],
+      "probability": 10
+   },
+   {
+      "name":"Fearow",
+      "attack":90,
+      "defense":65,
+      "type":"normal",
+      "moves":[
+         "peck",
+         "drill peck"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Ekans",
+      "attack":60,
+      "defense":44,
+      "evolveLevel":22,
+      "evolveTo":"24",
+      "type":"poison",
+      "moves":[
+         "poison sting",
+         "bite"
+      ],
+      "curve":1.6,
+      "levels": [5, 15],
+      "probability": 15
+   },
+   {
+      "name":"Arbok",
+      "attack":85,
+      "defense":69,
+      "type":"poison",
+      "moves":[
+         "poison sting",
+         "bite",
+         "acid"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Raichu",
+      "attack":90,
+      "defense":55,
+      "type":"electric",
+      "moves":[
+         "thundershock",
+         "thunderbolt"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Sandshrew",
+      "attack":75,
+      "defense":85,
+      "evolveLevel":22,
+      "evolveTo":"28",
+      "type":"ground",
+      "moves":[
+         "scratch",
+         "poison sting"
+      ],
+      "curve":1.6,
+      "levels": [5, 15],
+      "probability": 10
+   },
+   {
+      "name":"Sandslash",
+      "attack":100,
+      "defense":110,
+      "type":"ground",
+      "moves":[
+         "scratch",
+         "poison sting",
+         "slash",
+         "swift"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Nidoran",
+      "attack":47,
+      "defense":52,
+      "evolveLevel":16,
+      "evolveTo":"30",
+      "type":"poison",
+      "moves":[
+         "scratch"
+      ],
+      "curve":1.3,
+      "levels": [5, 8],
+      "probability": 15
+   },
+   {
+      "name":"Nidoqueen",
+      "attack":82,
+      "defense":87,
+      "type":"poison",
+      "moves":[
+         "scratch",
+         "poison sting",
+         "body slam",
+         "superpower"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Nidoran",
+      "attack":57,
+      "defense":40,
+      "evolveLevel":16,
+      "evolveTo":"33",
+      "type":"poison",
+      "moves":[
+         "peck"
+      ],
+      "curve":1.3,
+      "levels": [5, 8],
+      "probability": 15
+   },
+   {
+      "name":"Nidoking",
+      "attack":92,
+      "defense":77,
+      "type":"poison",
+      "moves":[
+         "peck",
+         "poison sting",
+         "megahorn"
+      ],
+      "curve":1.3
+   },
+   {
+      "name":"Ninetales",
+      "attack":76,
+      "defense":75,
+      "type":"fire",
+      "moves":[
+         "ember"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Zubat",
+      "attack":45,
+      "defense":35,
+      "evolveLevel":22,
+      "evolveTo":"42",
+      "type":"poison",
+      "moves":[
+         "astonish",
+         "bite",
+         "wing attack"
+      ],
+      "curve":1.6,
+      "levels": [5, 15],
+      "probability": 15
+   },
+   {
+      "name":"Golbat",
+      "attack":80,
+      "defense":70,
+      "type":"poison",
+      "moves":[
+         "poison fang",
+         "bite",
+         "wing attack",
+         "air cutter"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Paras",
+      "attack":70,
+      "defense":55,
+      "evolveLevel":24,
+      "evolveTo":"47",
+      "type":"bug",
+      "moves":[
+         "scratch"
+      ],
+      "curve":1.6,
+      "levels": [5, 15],
+      "probability": 15
+   },
+   {
+      "name":"Parasect",
+      "attack":95,
+      "defense":80,
+      "type":"bug",
+      "moves":[
+         "scratch",
+         "slash"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Venonat",
+      "attack":55,
+      "defense":50,
+      "evolveLevel":31,
+      "evolveTo":"49",
+      "type":"bug",
+      "moves":[
+         "tackle",
+         "confusion"
+      ],
+      "curve":1.6,
+      "levels": [10, 24],
+      "probability": 8
+   },
+   {
+      "name":"Venomoth",
+      "attack":65,
+      "defense":60,
+      "type":"bug",
+      "moves":[
+         "psybeam",
+         "psychic",
+         "confusion",
+         "gust"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Diglett",
+      "attack":55,
+      "defense":25,
+      "evolveLevel":26,
+      "evolveTo":"51",
+      "type":"ground",
+      "moves":[
+         "scratch"
+      ],
+      "curve":1.6,
+      "levels": [8, 16],
+      "probability": 15
+   },
+   {
+      "name":"Dugtrio",
+      "attack":80,
+      "defense":50,
+      "type":"ground",
+      "moves":[
+         "scratch",
+         "slash",
+         "earthquake"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Meowth",
+      "attack":45,
+      "defense":35,
+      "evolveLevel":28,
+      "evolveTo":"53",
+      "type":"normal",
+      "moves":[
+         "scratch",
+         "bite"
+      ],
+      "curve":1.6,
+      "levels": [8, 20],
+      "probability": 10
+   },
+   {
+      "name":"Persian",
+      "attack":70,
+      "defense":60,
+      "type":"normal",
+      "moves":[
+         "scratch",
+         "bite",
+         "slash"
+      ],
+      "curve":1.6
+   },
+   {
+      "name":"Psyduck",
+      "attack":52,
+      "defense":48,
+      "evolveLevel":33,
+      "evolveTo":"55",
+      "type":"water",
+      "moves":[
+         "scratch",
+         "confusion"
+      ],
+      "curve":1.6,
+      "levels": [8, 20],
+      "probability": 15
+   },
+   {
+      "name":"Golduck",
+      "attack":82,
+      "defense":78,
+      "type":"water",
+      "moves":[
+         "scratch",
+         "confusion",
+         "hydro pump"
+      ],
+      "curve":1.6
+   }
+]
+
